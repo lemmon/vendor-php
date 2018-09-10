@@ -1,0 +1,21 @@
+{
+  "finder": [
+    {
+      "name": "*",
+      "notName": [
+        "composer.json",
+        "CHANGELOG.md",
+        "README.md",
+        "phpunit.xml.dist"
+      ],
+      "exclude": [
+        "Tests"
+      ],
+      "in": "vendor"
+    }
+  ],
+  "main": "index.php",
+  "output": "../develop.phar",
+  "stub": true,
+  "shebang": false
+}
