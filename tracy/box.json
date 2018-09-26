@@ -1,0 +1,19 @@
+{
+  "finder": [
+    {
+      "name": "*",
+      "notName": [
+        "*.md",
+        "LICENSE"
+      ],
+      "exclude": [
+        "examples"
+      ],
+      "in": "vendor"
+    }
+  ],
+  "main": "vendor/autoload.php",
+  "output": "../tracy.phar",
+  "stub": true,
+  "shebang": false
+}
