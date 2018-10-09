@@ -1,0 +1,24 @@
+{
+  "finder": [
+    {
+      "name": "*",
+      "notName": [
+        "composer.json",
+        "CHANGELOG",
+        "LICENSE",
+        "phpunit.xml.dist",
+        "*.rst"
+      ],
+      "exclude": [
+        "Tests",
+        "doc",
+        "ext"
+      ],
+      "in": "vendor"
+    }
+  ],
+  "main": "vendor/autoload.php",
+  "output": "../twig1.phar",
+  "stub": true,
+  "shebang": false
+}
