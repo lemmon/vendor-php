@@ -1,0 +1,5 @@
+{
+    "require": {
+        "lemmon/fetch": "^0.2.0"
+    }
+}
